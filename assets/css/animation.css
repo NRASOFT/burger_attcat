@@ -1,0 +1,4 @@
+@keyframes bg_position {
+    from {background-position: bottom; background-color:rgba(0,0,0,1);}
+    to {background-position: top; background-color:rgba(0,0,0,0);}
+}

@@ -1,0 +1,18 @@
+.no-margin{ margin:0;}
+.no-padding{ padding:0; }
+body{ background-color:#000; color:#fff;}
+header{ margin-top:20px;}
+header .call_come strong{ display:block; margin-left:5px; margin-top:-8px; letter-spacing:2px; font-size:14px; font-family: 'Open Sans'; font-weight: bold; font-style: normal;}
+header .call_come strong:first-child{ font-size:27px; margin-top:-5px; }
+header .call_come strong:last-child::after{ content:" "; display:block; height:1px; background:#feeb18; width:67%; }
+header .head_contact p{ margin:0; padding:0; }
+header .head_contact p a{ font-family: 'Open Sans'; font-weight: bold; font-style: normal; font-size:0.9em; color:#fff;}
+header .head_contact p a i{ margin-right:10px; font-size:14pt; color:#feeb18;}
+header .social ul{ list-style: none;}
+header .social ul li { display:inline-block;}
+header .social ul li a{ margin-left:10px; font-size:17px; color:#fff;}
+.menu ul{ list-style:none; margin:0; padding:0;}
+.menu ul li{ display:inline-block; margin:40px 2%; text-align: center;}
+.menu ul li a{ font-family: 'Open Sans'; font-weight: bold; font-style: normal; color:#fff; font-size:17px;}
+.menu ul li .active::after{ content:" "; height:2px; width:90%; display: block; background-color:#feeb18; margin:5px auto;}
+.home{ transition:all 2s ease;  min-height: 120vh; width:100vw; background-image: url(../../img/icerik/home_bg.png); background-color:rgba(0,0,0,0); background-blend-mode: multiply; background-repeat: no-repeat; background-position: top; animation-name:bg_position;  animation-duration: 1s; background-size: 100%; border-bottom:65px solid; -webkit-border-image: url(../../img/site/ayrac.png) 100 round; -o-border-image: url(../../img/site/ayrac.png) 100 round; border-image: url(../../img/site/ayrac.png) 100 round; overflow:hidden;}
