@@ -16,3 +16,15 @@ header .social ul li a{ margin-left:10px; font-size:17px; color:#fff;}
 .menu ul li a{ font-family: 'Open Sans'; font-weight: bold; font-style: normal; color:#fff; font-size:17px;}
 .menu ul li .active::after{ content:" "; height:2px; width:90%; display: block; background-color:#feeb18; margin:5px auto;}
 .home{ transition:all 2s ease;  min-height: 120vh; width:100vw; background-image: url(../../img/icerik/home_bg.png); background-color:rgba(0,0,0,0); background-blend-mode: multiply; background-repeat: no-repeat; background-position: top; animation-name:bg_position;  animation-duration: 1s; background-size: 100%; border-bottom:65px solid; -webkit-border-image: url(../../img/site/ayrac.png) 100 round; -o-border-image: url(../../img/site/ayrac.png) 100 round; border-image: url(../../img/site/ayrac.png) 100 round; overflow:hidden;}
+.about{ margin-top:10vh;}
+.about p{ font-family: 'Open Sans Condensed'; font-weight: 200; font-style: normal; color:#ced4da; font-size:11pt; line-height:1.9; letter-spacing:1.40px; }
+.about .rocket{ position:absolute; margin-left:-13vw; margin-top:-27px; opacity:0.5;}
+.about_burger{ display:flex;}
+.burger{ height:100%; align-items:center; align-content:center;  display: flex; flex-wrap: wrap-reverse;}
+.burger_img img{ border-radius:100%; overflow:hidden; text-align: center; border:2px solid #ffed00;}
+.burger_text { padding-left:28px;}
+.burger_text h3{ text-align:left; font-family: 'Wide awake'; font-weight: normal; font-style: normal; color:#ffed00;}
+.info_burgers{ min-height:110vh; background-image: url(../../img/site/burger_bg.png); background-repeat:no-repeat; background-position: bottom; display:flex; align-items: flex-start;}
+.info_content h1{ font-family: 'Wide awake'; font-weight: normal; font-style: normal; color:#ffed00; margin-top:20px; }
+.info_content p{  font-family: 'Open Sans Condensed'; font-weight: 200; font-style: normal; color:#ced4da; margin-bottom: 30px; }
+.info_content{ border:2px solid #ffed00; border-bottom:none; height:auto; margin:40px auto;}
