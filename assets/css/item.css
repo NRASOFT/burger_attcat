@@ -43,3 +43,14 @@ header .social ul li a{ margin-left:10px; font-size:17px; color:#fff;}
 .durbun{ position: absolute; margin-left: 76vw; margin-top: -1vh; z-index:960; opacity:0.8; }
 .footer_item{ padding-top:40px; align-items:center; align-content:center;  display: flex; flex-wrap: wrap-reverse;}
 .footer_text{ font-family: 'Open Sans Condensed'; font-weight: 300; font-style: normal; }
+.footer_text{ font-family: 'Open Sans Condensed'; font-weight: 300; font-style: normal; }
+
+
+.home-about{transition:all 2s ease;  min-height: 185vh; width:100vw; background-image: url(../../img/icerik/about_us_bg.png); background-color:rgba(0,0,0,0); background-blend-mode: multiply; background-repeat: no-repeat; background-position: top; animation-name:bg_position;  animation-duration: 1s; background-size: 100%;overflow:hidden;}
+.about-us-left p{font-family: 'Open Sans Condensed';font-weight: 300;font-style: normal; margin-left: 7vw; font-size: 18px; letter-spacing: 1px;}
+#about-inner{padding-top: 53vh;}
+.ufo-about{position: absolute; margin-left:65vw; margin-top:-25vh; z-index:960; opacity:0.4;}
+.about-burger{top: 10vh;}
+.about-burger-right{top:-17vh;}
+.about-burger-right p{font-family: 'Open Sans Condensed';font-weight: 300; font-size: 18px; font-style: normal;letter-spacing: 1px; text-align: right;margin-right: 3vw;}
+.about-moon{background-image: url(../../img/site/about-moon.png);background-repeat: no-repeat;background-size: 100%;width: 100%;height: auto;}
