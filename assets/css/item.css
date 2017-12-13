@@ -54,7 +54,7 @@ header .social ul li a{ margin-left:10px; font-size:17px; color:#fff;}
 .about-moon{background-image: url(../../img/site/home_footerbg.png);background-repeat: no-repeat;background-size: 100%;width: 100%;    position: relative;height:77vh;background-position: bottom;margin-top: -26vh; }
 .product_home{ background-image: url(../../img/site/product_bg.png); background-repeat:no-repeat; background-position: top center; background-size: 100% auto; border-bottom:none !important; }
 .login-bg{background-image:url(../../img/site/login-screen.png);background-repeat: no-repeat; width: 100vw; height: 100vh;background-size: 100% 100%;}
-.logo{position: relative; top: 40px;}
+.logo-login{position: relative; top: 40px;}
 .login-form{top: 45vh;}
 .login-form input{width: 270px;border-radius: 9px;box-shadow: none;border: none;padding: 3px;}
 .login-form button{width: 125px;border-radius: 9px;box-shadow: none;border: none;background-color: #FDEA18;color: #000;font-family: 'Open Sans';font-weight: 500;font-style: normal; font-size:14px;padding: 4px;}
@@ -79,7 +79,16 @@ input:focus,button:focus {outline: none;}
 .items_products h5{font-family: 'Zrnic Rg'; font-weight: normal; font-style: normal;}
 .title_price * { display:inline-block; color:#ffed00; }
 .title_price .price{ float: right; font-size:16pt; margin-top:-5px; font-family: 'Zrnic Rg'; font-weight: normal; font-size:14.5pt; font-style: normal;}
-
+.home-contact{transition:all 2s ease;  min-height: 100vh; width:100vw; background-image: url(../../img/site/contact_bg.png); background-color:rgba(0,0,0,0.43); background-blend-mode: multiply; background-repeat: no-repeat; background-position: top; animation-name:bg_position;  animation-duration: 1s; background-size: 100% 100%;overflow:hidden;}
+.contact-inner {position: relative;top: 5vh;}
+.contact-inner span p{color:#FEEA00;font-family: 'Zrnic Rg';font-weight: lighter;font-style: normal;  font-size: 49px;letter-spacing: 2px;}
+.contact-inner a{text-decoration: none;color: #fff;}
+.contact-info p{padding: 20px;font-size: 16px;font-weight: lighter;font-style: normal;}
+.border-yellow{border-right: 1px solid #FEEA00;}
+.contact-button{position: relative; top:8vh;}
+.contact-button button{width: 180px;border-radius: 13px;padding: 6px; background-color: #FEEA00;border: none;}
+.contact-button button a{color: #000;letter-spacing: 2px;}
+.contact-button p{font-family: 'Wide awake';font-weight: normal;font-style: normal;color: #FEEA00;padding-top: 45px;font-size: 36px;}
 
 
 
