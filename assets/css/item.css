@@ -55,7 +55,20 @@ header .social ul li a{ margin-left:10px; font-size:17px; color:#fff;}
 .product_home{ background-image: url(../../img/site/product_bg.png); background-repeat:no-repeat; background-position: top center; background-size: 100% auto; border-bottom:none !important; }
 .login-bg{background-image:url(../../img/site/login-screen.png);background-repeat: no-repeat; width: 100vw; height: 100vh;background-size: 100% 100%;}
 .logo{position: relative; top: 40px;}
-.login-form{top: 40vh;}
+.login-form{top: 45vh;}
+.login-form input{width: 270px;border-radius: 9px;box-shadow: none;border: none;padding: 3px;}
+.login-form button{width: 125px;border-radius: 9px;box-shadow: none;border: none;background-color: #FDEA18;color: #000;font-family: 'Open Sans';font-weight: 500;font-style: normal; font-size:14px;padding: 4px;}
+.login-group{padding: 10px;}
+.login-form input::placeholder {color: #000;font-family: 'Open Sans';font-weight: 500;font-style: normal; font-size:13px; padding-left: 10px;}
+.register-form{top: 36vh;}
+.register-form input{width: 300px;box-shadow: none;border: none;padding: 8px;}
+.register-form button{width: 300px;box-shadow: none;border: none;background-color: #FDEA18;color: #000;font-family: 'Open Sans';font-weight: 500;font-style: normal; font-size:16px; padding: 12px;letter-spacing: 1px;}
+.register-group{padding: 10px;}
+.register-form input::placeholder {color: #000;font-family: 'Open Sans';font-weight: 500;font-style: normal; font-size:13px; padding-left: 10px; padding: 3px;}
+.register-form span p{color: #1C1C1B;font-family: 'Open Sans';font-weight: 600;font-style: normal;margin: 0px; font-size:16px;}
+.register-form span{font-family: 'Open Sans';font-weight: 300;font-style: normal;font-size: 12px;color: #1C1C1B;}
+.register-form input[type="password"] {color:#3BB394;}
+input:focus,button:focus {outline: none;}
 .image_category{ position: absolute; left:-20vw;}
 .title_products *{ display:inline-block; margin-top: -30px;}
 .title_products h1{ margin-top:10px; margin-left: 15px; font-family: 'Wide awake'; font-weight: normal; font-style: normal; color:#fff;}
@@ -66,6 +79,7 @@ header .social ul li a{ margin-left:10px; font-size:17px; color:#fff;}
 .items_products h5{font-family: 'Zrnic Rg'; font-weight: normal; font-style: normal;}
 .title_price * { display:inline-block; color:#ffed00; }
 .title_price .price{ float: right; font-size:16pt; margin-top:-5px; font-family: 'Zrnic Rg'; font-weight: normal; font-size:14.5pt; font-style: normal;}
+
 
 
 
